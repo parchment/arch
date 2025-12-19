@@ -1,7 +1,7 @@
 alias bye='sudo shutdown -h now'
 
 # Interactive shell initialisation
-set -gx EDITOR hx
+set -gx EDITOR helix
 
 # Fix for Ghostty terminal
 if test "$TERM" = xterm-ghostty

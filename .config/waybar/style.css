@@ -7,18 +7,28 @@
 }
 
 window#waybar {
-    background: rgba(43, 48, 59, 0.5);
+    background: #000000;
     color: #ffffff;
 }
 
 #workspaces button {
-    padding: 0 5px;
+    all: unset;
+    padding: 5px 10px;
     background: transparent;
     color: #ffffff;
+    border-width: 2px;
+    border-color: transparent;
+    border-style: solid;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#workspaces button:hover {
+    border: 2px solid rgba(140,170,238,1);
 }
 
 #workspaces button.active {
-    background: #64727d;
+    background: rgba(140,170,238,0.25);
 }
 
 #battery,

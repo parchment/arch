@@ -10,11 +10,11 @@
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
-        "format": "{name}",
-        "format-icons": {
-            "terminal": "",
-            "ide": "",
-            "browser": ""
+        "format": "{id}",
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": []
         }
     },
 
