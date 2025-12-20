@@ -5,7 +5,7 @@
     "spacing": 4,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": [],
-    "modules-right": ["battery", "clock"],
+    "modules-right": ["battery", "network", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -23,19 +23,20 @@
             "warning": 20,
             "critical": 10
         },
-        "format": "{capacity}%",
-        "format-charging": "{capacity}%",
-        "format-plugged": "{capacity}%"
+        "format": "{icon}",
+        "format-charging": "{icon}",
+        "format-plugged": "{icon}",
+        "format-icons": ["|","||","|||","||||","|||||"]
     },
 
     "network": {
-        "format-wifi": "{icon} {essid}",
+        "format-wifi": "{icon}",
         "format-icons": {
-            "wifi": ["◯", "◔", "◑", "◕", "◉"],
-            "ethernet": "◉",
-            "disconnected": "◯"
+            "wifi": ["-", "=", "|||", "||||", "|||||"],
+            "ethernet": "=",
+            "disconnected": "x"
         },
-        "format-ethernet": "◉ wired",
+        "format-ethernet": "= wired",
         "format-disconnected": "◯ offline"
     },
 

@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-    background: #000000;
+    background: rgba(0,0,0,0.9);
     color: #ffffff;
 }
 
@@ -24,11 +24,11 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    border: 2px solid rgba(140, 170, 238, 1);
+    color: rgba(140, 170, 238, 1);
 }
 
 #workspaces button.active {
-    background: rgba(140, 170, 238, 0.25);
+    color: rgba(140, 170, 238, 1);
 }
 
 #battery,
@@ -53,8 +53,10 @@ window#waybar {
     color: #bf616a; /* red */
 }
 
-#network {
+#battery, #network {
     color: white;
+    font-size: 12px;
+    font-weight: 900;
 }
 
 #network.disconnected {

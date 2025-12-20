@@ -68,7 +68,8 @@ palette = 12=#78B4F3
 palette = 13=#FC9867
 palette = 14=#AB9DF2
 palette = 15=#C7C7C7
-background = #23272E
+background = #000000
+background-opacity = 0.9
 foreground = #C7C7C7
 cursor-style = underline
 cursor-color = #FED866
