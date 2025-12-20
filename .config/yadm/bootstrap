@@ -85,6 +85,9 @@ else
     echo "Oh My Fish already installed, skipping."
 fi
 
+# Install LSPs
+
+
 # Tailscale setup
 fish -c 'setup_tailscale'
 

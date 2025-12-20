@@ -12,22 +12,26 @@ formatter = { command = "prettier", args = ["--parser", "html"] }
 name = "javascript"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
+language-servers = ["typescript-language-server"]
 
 [[language]]
 name = "jsx"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
+language-servers = ["typescript-language-server"]
 
 # TypeScript and TSX
 [[language]]
 name = "typescript"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
+language-servers = ["typescript-language-server"]
 
 [[language]]
 name = "tsx"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
+language-servers = ["typescript-language-server"]
 
 # JSON
 [[language]]
@@ -51,6 +55,7 @@ formatter = { command = "prettier", args = ["--parser", "yaml"] }
 [[language]]
 name = "rust"
 auto-format = true
+language-servers = ["rust-analyzer"]
 # rustfmt is handled by rust-analyzer language server,
 # so we don't need to specify a formatter here
 
