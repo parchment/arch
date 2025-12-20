@@ -24,14 +24,39 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    border: 2px solid rgba(140,170,238,1);
+    border: 2px solid rgba(140, 170, 238, 1);
 }
 
 #workspaces button.active {
-    background: rgba(140,170,238,0.25);
+    background: rgba(140, 170, 238, 0.25);
 }
 
 #battery,
 #clock {
     padding: 0 10px;
+}
+
+#battery {
+    color: white;
+}
+
+#battery.charging,
+#battery.plugged {
+    color: #a3be8c; /* green */
+}
+
+#battery.warning {
+    color: #ebcb8b; /* yellow */
+}
+
+#battery.critical {
+    color: #bf616a; /* red */
+}
+
+#network {
+    color: white;
+}
+
+#network.disconnected {
+    color: #bf616a; /* red */
 }

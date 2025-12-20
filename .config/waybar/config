@@ -19,8 +19,24 @@
     },
 
     "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+        "format": "{capacity}%",
+        "format-charging": "{capacity}%",
+        "format-plugged": "{capacity}%"
+    },
+
+    "network": {
+        "format-wifi": "{icon} {essid}",
+        "format-icons": {
+            "wifi": ["◯", "◔", "◑", "◕", "◉"],
+            "ethernet": "◉",
+            "disconnected": "◯"
+        },
+        "format-ethernet": "◉ wired",
+        "format-disconnected": "◯ offline"
     },
 
     "clock": {
