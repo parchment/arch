@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font", monospace;
-    font-size: 13px;
+    font-size: 14px;
     min-height: 0;
 }
 
@@ -40,10 +40,11 @@ window#waybar {
 #network {
     font-size: 18px;
     padding: 0 10px;
+    margin-top: -3px;
 }
 
 #battery {
-    font-size: 21px;
+    font-size: 18px;
     color: white;
 }
 
@@ -64,6 +65,7 @@ window#waybar {
     color: #bf616a; /* red */
 }
 
-#clock {
+#clock,
+#memory {
     font-size: 14px;
 }
