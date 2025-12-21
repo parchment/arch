@@ -3,11 +3,11 @@ theme = "vixelated"
 auto-completion = true
 auto-format = true
 auto-save = true
+clipboard-provider = "wayland"
 color-modes = true
 line-number = "relative"
 text-width = 80
 true-color = true
-clipboard-provider = "wayland"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -38,3 +38,9 @@ separator = "│"
 insert = "I"
 normal = "N"
 select = "S"
+
+[keys.normal]
+A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+A-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+A-J = ["extend_to_line_bounds", "yank", "paste_after", "move_line_down"]
+A-K = ["extend_to_line_bounds", "yank", "paste_before"]
