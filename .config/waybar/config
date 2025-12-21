@@ -23,10 +23,10 @@
             "warning": 20,
             "critical": 10
         },
-        "format": "{icon}",
-        "format-charging": "\udb80\udc84",
+        "format": "{icon} {capacity}%",
+        "format-charging": "\udb80\udc84 {capacity}%",
         "format-full": "\udb80\udc84",
-        "format-icons": ["\udb84\udea1","\udb84\udea2","\udb80\udc79"],
+        "format-icons": ["\udb80\udc7a","\udb80\udc7b","\udb80\udc7c","\udb80\udc7d","\udb80\udc7e","\udb80\udc7f","\udb80\udc80","\udb80\udc81","\udb80\udc82","\udb80\udc79"],
         "tooltip": false
     },
 
