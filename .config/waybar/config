@@ -32,9 +32,9 @@
     "network": {
         "format-wifi": "{icon}",
         "format-icons": {
-            "wifi": "\udb81\udda9",
+            "wifi": ["\udb82\udd1f","\udb82\udd22","f0928"],
             "ethernet": "\udb80\ude00",
-            "disconnected": "\udb82\udd2f"
+            "disconnected": "\udb82\udd2d"
         },
         "format-ethernet": "{icon}",
         "format-disconnected": "{icon}"
