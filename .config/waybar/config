@@ -24,20 +24,20 @@
             "critical": 10
         },
         "format": "{icon}",
-        "format-charging": "{icon}",
-        "format-plugged": "{icon}",
-        "format-icons": ["|","||","|||","||||","|||||"]
+        "format-charging": "\udb80\udc84",
+        "format-plugged": "\udb80\udc84",
+        "format-icons": ["\udb84\udea1","\udb84\udea2","\udb84\udea3"]
     },
 
     "network": {
         "format-wifi": "{icon}",
         "format-icons": {
-            "wifi": ["–", "=", "≡", "≣"],
-            "ethernet": "∩",
-            "disconnected": "≠"
+            "wifi": ["\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+            "ethernet": "\udb80\ude00",
+            "disconnected": "\udb82\udd2f"
         },
-        "format-ethernet": "∩ wired",
-        "format-disconnected": "◯ offline"
+        "format-ethernet": "{icon}",
+        "format-disconnected": "{icon}"
     },
 
     "clock": {
