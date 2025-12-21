@@ -7,6 +7,7 @@ color-modes = true
 line-number = "relative"
 text-width = 80
 true-color = true
+clipboard-provider = "wayland"
 
 [editor.cursor-shape]
 insert = "bar"
