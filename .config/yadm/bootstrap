@@ -31,7 +31,7 @@ sudo pacman -Syu --noconfirm
 
 # Install packages individually
 echo "Installing required packages..."
-PACKAGES="bat bottom curl docker fd fish fzf ghostty helix httpie jq lazygit lazydocker nodejs npm rclone tailscale tree ttf-jetbrains-mono-nerd wget wl-clipboard yazi zoxide"
+PACKAGES="bat bottom curl docker fd fish fzf ghostty helix httpie jq lazygit lazydocker mako nodejs npm rclone tailscale tree ttf-jetbrains-mono-nerd wget wl-clipboard yazi zoxide"
 for pkg in $PACKAGES; do
     install_if_missing "$pkg"
 done

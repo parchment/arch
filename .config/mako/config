@@ -1,0 +1,22 @@
+
+# Basic notification styling
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#ffffff
+border-size=2
+border-radius=0
+
+# Position and sizing
+anchor=top-right
+margin=20
+padding=10
+width=300
+height=100
+
+# Behavior
+default-timeout=5000
+ignore-timeout=1
+max-visible=5
+
+# Font
+font=monospace 11
