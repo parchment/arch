@@ -31,17 +31,24 @@ window#waybar {
     color: rgba(140, 170, 238, 1);
 }
 
+#network,
 #battery,
 #clock {
+    margin-right: 10px;
+}
+
+#network {
+    font-size: 18px;
     padding: 0 10px;
 }
 
 #battery {
+    font-size: 21px;
     color: white;
 }
 
 #battery.charging,
-#battery.plugged {
+#battery.full {
     color: #a3be8c; /* green */
 }
 
@@ -53,13 +60,10 @@ window#waybar {
     color: #bf616a; /* red */
 }
 
-#battery,
-#network {
-    color: white;
-    font-size: 12px;
-    font-weight: 900;
-}
-
 #network.disconnected {
     color: #bf616a; /* red */
+}
+
+#clock {
+    font-size: 14px;
 }
