@@ -34,11 +34,11 @@ window#waybar {
 #network,
 #battery,
 #clock {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #network {
-    font-size: 16px;
+    font-size: 15px;
     padding: 0 10px;
     margin-top: -1px;
 }
